@@ -1,0 +1,167 @@
+body{
+    background-color:#0A192F ;
+}
+#nav{
+display: flex;
+}
+#home{
+    display:flex
+}
+#intro1{
+    width: 100%;
+    font-size: 50px;
+}
+#content-photo{
+    display: flex;
+}
+#My-photo1{
+    margin-left: 300px;
+}
+#My-photo{
+    width: 100%;
+    height:300px;
+    opacity: 0.5;
+}
+
+
+
+#logo{
+    height: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#logo-pic{
+    height: 50px;
+    width:50px
+
+}
+#logo-words{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 100px;
+    
+}
+.noun{
+    margin-left: 50px;
+    margin-right:30px ;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+a:hover{
+    color:green
+}
+#butn{
+    margin-left: 200px;
+    margin-top: 18px;
+    align-items: center;
+   
+}
+.butn{
+    background-color: #0A192F;
+    border-color:#14F1A2 ;
+    color: #14F1A2;
+}
+/*Home page beginning*/
+#home{
+    margin-left: 100px;
+}
+#greet{
+    color:#14F1A2
+}
+#name{
+    color: #CCD6F6;
+}
+#intro1{
+    color:#8892B0
+}
+#introword{
+    color:white;
+}
+#btn2{
+    color:#14F1A2 ;
+    background-color: #0A192F;
+    border-color:#14F1A2;
+   margin-left: 100px;
+}
+/*THis ABOUT SECTION*/
+#About{
+    margin-left: 100px;
+}
+#Progra-language{
+    display: flex;
+}
+/*This is Experiance section*/
+hr{
+    width: 500px;
+    color:#CCD6F6;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.line-id{
+    margin-top: 5px;
+}
+.part-intro{
+    display: flex;
+}
+#work{
+    display: flex;
+}
+#work1{
+    display:flex;
+}
+#experiance{
+    margin-left: 100px;
+}
+#tatoria{
+    margin-right:20px
+}
+#tatoria1{
+    margin-left: 20px;
+}
+#duration{
+    margin-left: 125px;
+}
+#rha{
+    margin-right: 100px;
+}
+/*this section is about "some things i have built"*/
+#work-intro{
+    display: flex;
+}
+#code-photo{
+    height: 300px;
+    width: 600px;
+    margin-top: 50px;   
+}
+#work-photo{
+    margin-left:100px;
+}
+/*What's next section*/
+#what-next{
+    margin-left:100px ;
+}
+#say-hello{
+    margin-left: 450px;
+}
+/*This is footer sectio*/
+#footer{
+    background-color: #8892B0;
+    display: flex;
+    
+}
+#footer1{
+    display: flex;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+#footer2{
+    display: flex;
+}
+#email{
+    margin-right: 50px;
+}
