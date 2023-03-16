@@ -65,6 +65,8 @@ a:hover{
     background-color: #0A192F;
     border-color:#14F1A2 ;
     color: #14F1A2;
+    border-radius: 10px;
+    padding: 5px;
 }
 /*Home page beginning*/
 #home{
@@ -86,6 +88,8 @@ a:hover{
     color:#14F1A2 ;
     background-color: #0A192F;
     border-color:#14F1A2;
+    border-radius: 20px;
+    padding: 10px;
    margin-left: 100px;
 }
 /*THis ABOUT SECTION*/
@@ -148,6 +152,12 @@ hr{
 #say-hello{
     margin-left: 450px;
 }
+#say{
+    border-radius: 20px;
+    padding: 5px;
+    
+  
+}
 /*This is footer sectio*/
 #footer{
     background-color: #8892B0;
@@ -164,4 +174,19 @@ hr{
 }
 #email{
     margin-right: 50px;
+}
+/*This is the form */
+#messege{
+    align-items:center;
+}
+#form{
+    margin-left: 100px;
+}
+
+.butn:hover{
+    border-color: #8892B0;
+    color:blue;
+}
+#form-butn{
+    margin-left: 300px;
 }
