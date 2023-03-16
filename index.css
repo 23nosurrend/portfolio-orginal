@@ -29,7 +29,11 @@ display: flex;
     height: 50px;
     margin-right: 100px;
     margin-left: 100px;
+    }
+.push{
+    position: fixed;
 }
+
 #logo-pic{
     height: 50px;
     width:50px
@@ -137,6 +141,7 @@ hr{
 #work-intro{
     display: flex;
 }
+
 #code-photo{
     height: 300px;
     width: 600px;
@@ -144,6 +149,23 @@ hr{
 }
 #work-photo{
     margin-left:100px;
+    
+}
+#what-built{
+    display: flex;
+}
+#Explaination-project{
+    margin-top: 20px;
+    margin:180px 0px 20px -250px;
+}
+#first-words{
+    margin-left: 240px;
+}
+
+.project-details{
+    border: 2px solid #8892B0;
+    width: 355px;
+   
 }
 /*What's next section*/
 #what-next{
@@ -189,4 +211,9 @@ hr{
 }
 #form-butn{
     margin-left: 300px;
+}
+#keyn{
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+
 }
