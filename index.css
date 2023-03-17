@@ -105,8 +105,15 @@ a:hover{
 #About{
     margin-left: 100px;
 }
+#About-small{
+    display: flex;
+}
 #Progra-language{
     display: flex;   
+}
+#line-up{
+    margin-left: 2px;
+    margin-top: 5px;
 }
 .list{
     list-style: none;
