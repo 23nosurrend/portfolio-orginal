@@ -1,29 +1,25 @@
 body{
     background-color:#0A192F ;
     font-family: 'Inder', sans-serif;
+    
 }
 #nav{
 display: flex;
 margin-left: 10px;
+flex-wrap: wrap;
 }
 #home{
     display:flex
 }
+
+
+
 #intro1{
     width: 100%;
     font-size: 50px;
 }
 #content-photo{
     display: flex;
-}
-#My-photo1{
-    margin-left: 280px;
-}
-#My-photo{
-    width: 100%;
-    height:300px;
-    opacity: 20;
-    
 }
 
 
@@ -47,6 +43,7 @@ margin-left: 10px;
     align-items: center;
     justify-content:space-between;
     margin-left: 100px;
+    flex-wrap:wrap;
     
 }
 .noun{
@@ -60,7 +57,7 @@ a{
 
 }
 a:hover{
-    color:green
+    color:#14F1A2
 }
 #butn{
     margin-left: 200px;
@@ -125,6 +122,20 @@ a:hover{
     margin-right:10px;
     font-size: 30px;
 }
+
+#My-photo1{
+    margin-left: 280px;
+    margin-top:-60px
+    
+}
+#My-photo{
+    width: 100%;
+    height:300px;
+    opacity: 20;
+    
+}
+
+
 
 /*This is Experiance section*/
 hr{
@@ -220,16 +231,21 @@ hr{
 #footer{
     background-color: #8892B0;
     display: flex;
-    width:100.5%;
-    margin-right:0px
-    padding:0px
-    
+    width:100%;
+    height:100%; 
+    box-sizing: border-box; 
+    box-shadow: 0 0 0 100vmax #8892B0;
+    clip-path:inset(0 -100vmax);
+     margin-bottom: -40px;
     
 }
+
+
 #footer1{
     display: flex;
     margin-right: 300px;
     margin-left: 50px;
+    
 }
 #footer2{
     display: flex;
